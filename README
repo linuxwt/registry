@@ -1,4 +1,4 @@
-我们将docker私有仓库建立好后，需要把从互联网上的包打一个tag，然后推上去，以mysql为例：   
+我们将docker私有仓库建立好后，需要把从互联网上的镜像打一个tag，然后推上去，以mysql为例：   
 docker pull mysql:5.7  
 docker images   
 docker tag mysql:5.7 serverip:5000/mysql:v1   
