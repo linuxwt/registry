@@ -3,3 +3,4 @@ docker pull mysql:5.7
 docker images   
 docker tag mysql:5.7 serverip:5000/mysql:v1   
 docker pull mysql serverip:5000/mysql:v1     
+测试 http://serverip:5000/v2/_catalog
