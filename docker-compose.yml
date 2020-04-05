@@ -51,8 +51,6 @@ nginx_linuxwt:
      container_name: nginx_linuxwt
 
      volumes:
-
-        - ./html:/usr/share/nginx/html
    
         - ./registry.linuxwt.com.crt:/etc/registry.linuxwt.com.crt
 
